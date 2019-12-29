@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1812C0C823B7A9CA0097AC08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812C0C723B7A9CA0097AC08 /* AppDelegate.m */; };
-		1812C0CB23B7A9CA0097AC08 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812C0CA23B7A9CA0097AC08 /* SceneDelegate.m */; };
 		1812C0CE23B7A9CA0097AC08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812C0CD23B7A9CA0097AC08 /* ViewController.m */; };
 		1812C0D123B7A9CA0097AC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812C0CF23B7A9CA0097AC08 /* Main.storyboard */; };
 		1812C0D323B7A9CD0097AC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812C0D223B7A9CD0097AC08 /* Assets.xcassets */; };
 		1812C0D623B7A9CD0097AC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812C0D423B7A9CD0097AC08 /* LaunchScreen.storyboard */; };
 		1812C0D923B7A9CD0097AC08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812C0D823B7A9CD0097AC08 /* main.m */; };
+		184DF3D523B88EF50072EE14 /* DirTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF3D423B88EF50072EE14 /* DirTabViewController.m */; };
+		184DF3D823B88F190072EE14 /* DirTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF3D723B88F190072EE14 /* DirTabBar.m */; };
+		5FF0FF12A7C99C8B15EDB56B /* libPods-DirectSeeding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A60840DAF4FD89EC98C318A /* libPods-DirectSeeding.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1812C0C323B7A9CA0097AC08 /* DirectSeeding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectSeeding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1812C0C623B7A9CA0097AC08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1812C0C723B7A9CA0097AC08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1812C0C923B7A9CA0097AC08 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1812C0CA23B7A9CA0097AC08 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1812C0CC23B7A9CA0097AC08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1812C0CD23B7A9CA0097AC08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1812C0D023B7A9CA0097AC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +29,14 @@
 		1812C0D523B7A9CD0097AC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1812C0D723B7A9CD0097AC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1812C0D823B7A9CD0097AC08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184DF3D323B88EF50072EE14 /* DirTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirTabViewController.h; sourceTree = "<group>"; };
+		184DF3D423B88EF50072EE14 /* DirTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirTabViewController.m; sourceTree = "<group>"; };
+		184DF3D623B88F190072EE14 /* DirTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirTabBar.h; sourceTree = "<group>"; };
+		184DF3D723B88F190072EE14 /* DirTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirTabBar.m; sourceTree = "<group>"; };
+		184DF3D923B8FE3B0072EE14 /* DirectSeedingPch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectSeedingPch.h; sourceTree = "<group>"; };
+		3A60840DAF4FD89EC98C318A /* libPods-DirectSeeding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DirectSeeding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD96176FCE1A150D34D3917 /* Pods-DirectSeeding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectSeeding.debug.xcconfig"; path = "Target Support Files/Pods-DirectSeeding/Pods-DirectSeeding.debug.xcconfig"; sourceTree = "<group>"; };
+		949C820017DA25EB376AE321 /* Pods-DirectSeeding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectSeeding.release.xcconfig"; path = "Target Support Files/Pods-DirectSeeding/Pods-DirectSeeding.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF0FF12A7C99C8B15EDB56B /* libPods-DirectSeeding.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +56,8 @@
 			children = (
 				1812C0C523B7A9CA0097AC08 /* DirectSeeding */,
 				1812C0C423B7A9CA0097AC08 /* Products */,
+				E0A8DB232A6CA85C33DAA215 /* Pods */,
+				63868F3ED36F3F365B23CDDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +72,10 @@
 		1812C0C523B7A9CA0097AC08 /* DirectSeeding */ = {
 			isa = PBXGroup;
 			children = (
+				184DF3DA23B8FF250072EE14 /* Live */,
+				184DF3D223B88EB50072EE14 /* Base */,
 				1812C0C623B7A9CA0097AC08 /* AppDelegate.h */,
 				1812C0C723B7A9CA0097AC08 /* AppDelegate.m */,
-				1812C0C923B7A9CA0097AC08 /* SceneDelegate.h */,
-				1812C0CA23B7A9CA0097AC08 /* SceneDelegate.m */,
 				1812C0CC23B7A9CA0097AC08 /* ViewController.h */,
 				1812C0CD23B7A9CA0097AC08 /* ViewController.m */,
 				1812C0CF23B7A9CA0097AC08 /* Main.storyboard */,
@@ -72,8 +83,68 @@
 				1812C0D423B7A9CD0097AC08 /* LaunchScreen.storyboard */,
 				1812C0D723B7A9CD0097AC08 /* Info.plist */,
 				1812C0D823B7A9CD0097AC08 /* main.m */,
+				184DF3D923B8FE3B0072EE14 /* DirectSeedingPch.h */,
 			);
 			path = DirectSeeding;
+			sourceTree = "<group>";
+		};
+		184DF3D223B88EB50072EE14 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				184DF3D323B88EF50072EE14 /* DirTabViewController.h */,
+				184DF3D423B88EF50072EE14 /* DirTabViewController.m */,
+				184DF3D623B88F190072EE14 /* DirTabBar.h */,
+				184DF3D723B88F190072EE14 /* DirTabBar.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		184DF3DA23B8FF250072EE14 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				184DF3DD23B8FF530072EE14 /* Views */,
+				184DF3DC23B8FF420072EE14 /* ViewControllers */,
+				184DF3DB23B8FF350072EE14 /* Models */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		184DF3DB23B8FF350072EE14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		184DF3DC23B8FF420072EE14 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		184DF3DD23B8FF530072EE14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63868F3ED36F3F365B23CDDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A60840DAF4FD89EC98C318A /* libPods-DirectSeeding.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A8DB232A6CA85C33DAA215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD96176FCE1A150D34D3917 /* Pods-DirectSeeding.debug.xcconfig */,
+				949C820017DA25EB376AE321 /* Pods-DirectSeeding.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1812C0DC23B7A9CD0097AC08 /* Build configuration list for PBXNativeTarget "DirectSeeding" */;
 			buildPhases = (
+				71741F5AE51367DDFD1AE457 /* [CP] Check Pods Manifest.lock */,
 				1812C0BF23B7A9CA0097AC08 /* Sources */,
 				1812C0C023B7A9CA0097AC08 /* Frameworks */,
 				1812C0C123B7A9CA0097AC08 /* Resources */,
+				43AAEEAB8B6F6F731DBF323E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,6 +214,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43AAEEAB8B6F6F731DBF323E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DirectSeeding/Pods-DirectSeeding-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DirectSeeding/Pods-DirectSeeding-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DirectSeeding/Pods-DirectSeeding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71741F5AE51367DDFD1AE457 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DirectSeeding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1812C0BF23B7A9CA0097AC08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,8 +263,9 @@
 			files = (
 				1812C0CE23B7A9CA0097AC08 /* ViewController.m in Sources */,
 				1812C0C823B7A9CA0097AC08 /* AppDelegate.m in Sources */,
+				184DF3D523B88EF50072EE14 /* DirTabViewController.m in Sources */,
 				1812C0D923B7A9CD0097AC08 /* main.m in Sources */,
-				1812C0CB23B7A9CA0097AC08 /* SceneDelegate.m in Sources */,
+				184DF3D823B88F190072EE14 /* DirTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +403,7 @@
 		};
 		1812C0DD23B7A9CD0097AC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD96176FCE1A150D34D3917 /* Pods-DirectSeeding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +421,7 @@
 		};
 		1812C0DE23B7A9CD0097AC08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949C820017DA25EB376AE321 /* Pods-DirectSeeding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
